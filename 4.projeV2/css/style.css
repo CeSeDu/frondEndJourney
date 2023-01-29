@@ -1,0 +1,276 @@
+body{
+background-color: #171717;
+font-family: 'Inter';
+font-style: normal;
+}
+.container{
+display: grid;
+justify-content: center;
+width: 100%;
+}
+.article_aside_card{
+max-width: 309px;
+max-height: 209px;
+background: #171717;
+border-radius: 12px;
+padding: 10px;
+
+}
+
+.article{
+background-color: #202020;
+width: 100%;
+max-width: 668px;
+max-height: 359px;
+margin-top: 20px;
+margin-bottom: 20px;
+border-radius: 16px;
+display:flex ;
+justify-content: center;
+
+}
+.article_card_aside_container{
+    display: grid;
+}
+.article_item{
+display: grid;
+justify-content: center;
+align-items: center;
+
+}
+
+.article_aside_card_footer{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 20px;
+}
+.aside_item_vector_number{
+    padding: 10px;
+}
+
+.aside_card_top{
+display: grid;
+max-height:100%;
+max-width: 100%;
+padding: 10px;
+margin-top: 10px;
+
+}
+.article_aside_card_title{
+font-weight: 700;
+font-size: 12px;
+line-height: 100%;
+color: #FFFFFF;
+display: flex;
+justify-content: flex-start;
+margin: 20px;
+}
+.article_text{
+font-size: 12px; 
+color: #FFFFFF; 
+}
+.aside_item_container{
+    display: flex;
+    flex-direction: row;
+
+}
+.aside_item{
+display:block;
+margin: 10px;
+flex-wrap: nowrap;
+}
+.aside_item_text{
+font-weight: 500;
+font-size: 12px;
+color: #606060;
+}
+
+.aside_item_number{
+font-weight: 700;
+font-size: 14px;
+color: #F6CE0E;
+}
+.aside_item_vector_number{
+font-weight: 700;
+font-size: 14px;
+
+color: #FFFFFF;
+}
+.article_title{
+font-weight: 900;
+font-size: 40px;
+color: #F6CE0E;
+
+}
+.article_card_footer{
+    display:inline;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.article_aside_text{
+font-weight: 500;
+font-size: 12px;
+color: #FFFFFF;
+margin-left: 54px;
+}
+/*==== HEADER ===*/
+.header{
+display: flex;
+margin-top: 10px;
+width: 100%;
+}
+.header_item{
+background-color: #202020;
+border-radius: 50px;
+Width:502px;
+Height:64px;
+display: flex;
+align-items: center;
+outline-style: none;
+padding-left: 20px;
+margin-right: 4px;
+}
+.header_item_input{
+background-color:#202020;
+border: none;
+max-width: 100%;
+outline: none;
+color:#606060;
+}
+.header_item_button{
+background: #242323;
+border-radius: 50px;
+float: right;
+text-align: center;
+Width:150px;
+Height:64px;
+display: flex;
+align-items: center;
+justify-content: center;
+color: white;
+font-size: 16px;
+}
+.header_item_number{
+margin-left: 10px;
+background: #F6CE0E;
+border-radius: 50%;
+width: 15px;
+color: #171717;
+font-family: 'Fira Sans';
+font-size: 16px;
+font-weight: 600;
+}
+.header_item_text{
+    padding-left: 10px;
+}
+/*=== FOOTER ===*/
+.footer_card_two,.footer_card{
+width: 322px;
+height: 277px;
+background: #202020;
+border-radius: 16px;
+
+}
+.footer{
+display: flex;
+gap: 25px;
+}
+.footer_card_top{
+    width: 100%;
+    padding: 10px;
+    display: inline-flex;
+    margin: 10px;
+}
+
+.footer_card_button{
+    border-radius: 16px;
+    border: 1px solid white;
+    margin-left:100px ;
+    background-color: #202020;
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+}
+.footer_card_item_logo,.footer_card_item_logo_two{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Inter';
+}
+.footer_card_item_logo_two{
+display: grid;
+justify-content: center;
+margin: 30px;
+}
+.footer_card_img,.footer_card_img_two{
+    display: grid;
+    justify-content: center;
+    margin: 10px;
+}
+.footer_card_img_two{
+    margin: 30px;
+}
+.footer_card_item_title{
+    color: #F6CE0E;
+    display: grid;
+    justify-content: center;
+    margin: 5px;
+}
+.footer_card_item_text{
+    color: #606060;
+    display: grid;
+    justify-content: center;
+    margin: 10px;
+}
+@media screen and (max-width:700px) {
+
+    .container{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .header{
+        display: flex;
+    }
+    .header_item{
+        max-width: 200px;
+        color: white;
+    }
+    .header_item_input{
+        width: 150px;
+        color:yellow;
+    }
+    .header_item_button{
+        width: 100px;
+    
+        
+    }
+    .article{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        width: max-content;
+
+    }
+    .article_card_aside_container{
+        background-color: #202020;
+        padding: 10px;
+        margin-top: -60px;
+        border-radius: 13px;
+        width: max-content;
+
+    }
+    .footer{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+
+        margin-top: 400px;
+    }
+    .footer_card,.footer_card_two{
+        padding: 15px;
+    }
+}
