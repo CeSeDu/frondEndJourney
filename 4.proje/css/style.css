@@ -76,8 +76,8 @@ color: #C4C4C4;
 }
 
 .header_footer_button{
-max-width: 143.7px;
-max-height: 54.37px;
+width: 143.7px;
+max-height: 100px;
 background: #1666B3;
 border-radius: 10px;
 font-family: 'Montserrat';
@@ -87,7 +87,8 @@ font-size: 22px;
 line-height: 27px;
 color: #FFFFFF;
 border: none;
-margin-left: 100px;
+margin-left: 180px;
+padding: 10px;
 }
 .article_card_container{
 width: 736px;
@@ -100,6 +101,9 @@ border-radius: 13px;
 .article_card_top,.article_card_footer,.footer_card_top{
 padding: 25px 45px;
 
+}
+.article_card_footer,.footer_card_footer{
+  padding: 0px;
 }
 .footer_card_container{
 width: 736px;
@@ -154,7 +158,7 @@ font-size: 14px;
 font-weight: 600;
 }
 .footer_card_footer{    
-padding: 15px 45px;
+padding: 15px 0px;
 }
 .article_card_footer_item,.footer_card_footer_item{
 display: flex;
@@ -172,13 +176,65 @@ margin-bottom: 20px;
 padding: 8px;
 }
 
-@media only screen and (width: 900px) {
+@media screen and (max-width:800px) {
      .container {
-      width: 300px;
+      display:grid;
+      justify-content: center;
+      align-items: center;
     }
     .header{
-        
         width: 436px;
         height: 285.48px;
+        display: grid;
+        justify-content: center;
+        align-items: center;     
+
         }
-  }
+        .header_card_container{
+          width: 436px;
+ 
+        }
+        .header_card_top_container{
+          padding:10px;
+        }
+        .header_card_footer_container{
+          margin-top: -20px;
+          width: 400px;
+        }
+        .header_footer_button{
+          margin: 0px;      
+          width: 100px;
+         margin-left:-50px;
+        }
+        .article_button_sm{
+          margin-right: 40px;
+        }
+         .article_card_container,.footer_card_container{
+          width: 436px;
+          height: max-content;
+         }
+
+      .article_card_top{
+        width: max-content;
+        margin-left: -25px;
+        
+      }
+      .article_card_img{
+        width: 436px;
+        margin-top: 50px;
+      }
+      .article_card_text,.footer_card_text{
+        width: 400px;
+       
+      }
+      .article_card_footer_item,.footer_card_footer_item{
+        padding: 0px;
+        margin: 0px;
+      }
+      .footer_card_text{
+        margin-bottom: 20px;
+      }
+     .footer_card_top{
+        margin-left: -20px;
+       }
+ }

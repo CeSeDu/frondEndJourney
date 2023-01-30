@@ -22,7 +22,7 @@ background-color: #202020;
 width: 100%;
 max-width: 668px;
 max-height: 359px;
-margin-top: 20px;
+margin-top: 10px;
 margin-bottom: 20px;
 border-radius: 16px;
 display:flex ;
@@ -31,6 +31,9 @@ justify-content: center;
 }
 .article_card_aside_container{
     display: grid;
+    font-family: 'Inter';
+    font-style: normal;
+
 }
 .article_item{
 display: grid;
@@ -43,10 +46,16 @@ align-items: center;
     display: flex;
     justify-content:center;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
 }
 .aside_item_vector_number{
     padding: 10px;
+}
+.btn-background{
+    background-color:#202020;
+    color: white;
+    outline: none;
+    border: none;
 }
 
 .aside_card_top{
@@ -101,6 +110,9 @@ color: #FFFFFF;
 font-weight: 900;
 font-size: 40px;
 color: #F6CE0E;
+font-family: 'Inter';
+font-style: normal;
+font: bold;
 
 }
 .article_card_footer{
