@@ -1,34 +1,33 @@
 .container{
-    width: 100%;
-    height: 100%;
-     display: grid;
-     justify-content: center;
-margin: 30px;
-  
+display: grid;
+justify-content: center;
+align-items: center;
+align-self: center;
+margin-top:50px;
+margin-left: 10%;
 }
-
 .nav{
-    max-width:max-content ;
-   height: 30px;
+max-width:90%;
+max-height: 30px;
 }
 .header{
-    margin: 20px;
-   display: grid;
-    gap: 30px;
-    grid-template-columns: 5fr 7fr;
+margin: 20px;
+display: grid;
+gap: 30px;
+grid-template-columns: 4fr 8fr;
 }
 .header__card{
-    background-image: url('../assets/img/women.png');
-    background-size: cover;  
-    background-position:center;
-    width: 100%;
-    min-width: 474px;
-    min-height:428px;
-    display: grid;
-    border-radius: 13px;
- 
-}
+background-image: url('../assets/img/women.png');
+background-size: cover;  
+background-position:center;
+max-width: 100%;
+max-width: 474px;
+height:428px;
+display: grid;
+border-radius: 13px;
+align-self: end;
 
+}
 .header__card_box{
 max-width: 437.71px;
 max-height: 77.31px;
@@ -38,7 +37,7 @@ border-radius: 15px;
 align-self: flex-end;
 text-align: start;
 display: grid;
-padding: 10px 20px;
+padding: 10px 10px;
 margin: 10px;
 }
 .header__card__item_title{
@@ -49,20 +48,20 @@ color: #0E0E0E;
 font-weight: 900;
 }
 .header__card_item_text{
- font-size: 15.2437px;
+font-size: 15.2437px;
 line-height: 18px;
 color: #5E5E5E;
 }
 .header__cards{
-    display: flex;
-    flex-wrap: wrap;
-    grid-template-columns: 4fr 4fr 4fr;
-    justify-content: start;
-    grid-column: 2 / 2;
-    grid-row: 1;
-    gap: 10px;
-    max-width: 650px;
-    margin-left: 20px;
+display: flex;
+flex-wrap: wrap;
+grid-template-columns: 4fr 4fr 4fr;
+justify-content: end;
+grid-column: 2 / 2;
+grid-row: 1;
+gap: 10px;
+max-width: 650px;
+
 }
 .header__aside__card{    
 width: 100%;
@@ -86,53 +85,54 @@ margin: 10px;
 padding: 10px;
 }
 .aside__card--img1{
-    background-image: url('../assets/img/photo-1580089056071-11f31b94fefe\ 1.png');
+background-image: url('../assets/img/photo-1580089056071-11f31b94fefe\ 1.png');
 }
 .aside__card--img2{
-    background-image: url('../assets/img/Antelope-Canyon-3-Acrylic-on-Canvas\ 1.png');
+background-image: url('../assets/img/Antelope-Canyon-3-Acrylic-on-Canvas\ 1.png');
 }
 .aside__card--img3{
-    background-image: url('../assets/img/artwork-4\ 1.png');
+background-image: url('../assets/img/artwork-4\ 1.png');
 }
 .aside__card--img4{
-    background-image: url('../assets/img/digital-digital-art-artwork-fantasy-art-drawing-hd-wallpaper-preview\ 1.png');
+background-image: url('../assets/img/digital-digital-art-artwork-fantasy-art-drawing-hd-wallpaper-preview\ 1.png');
 }
 .aside__card--img5{
-    background-image: url('../assets/img/bts-v-pencil-art-work-1\ 1.png');
+background-image: url('../assets/img/bts-v-pencil-art-work-1\ 1.png');
 }
 .aside__card--img6{
-    background-image: url('../assets/img/images\ 1.png');
+background-image: url('../assets/img/images\ 1.png');
 }
-
 .article{
-    display: flex;
+display: flex;
+margin-top:80px;
+margin-bottom: 50px;
 }
 .article__button{
-    display: block;
-    box-sizing: border-box;
-    position: absolute;
-    max-width: 124px;
-    max-height: 47.99px;
-    background: #FFFFFF;
-    border: 1px solid #6300FF;
-    border-radius: 47px;
-    margin-left: 250px;
-    padding: 10px;
+display: block;
+box-sizing: border-box;
+position: absolute;
+max-width: 124px;
+max-height: 47.99px;
+background: #FFFFFF;
+border: 1px solid #6300FF;
+border-radius: 47px;
+margin-left: 250px;
+padding: 10px;
 }
 .footer{
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 1400px;
-    grid-row-gap:  150px;
-    grid-column-gap: 28px;
-    margin-top: 30px;
+display: flex;
+flex-wrap: wrap;
+max-width: 1200px;
+grid-row-gap:  150px;
+grid-column-gap: 28px;
+margin-top: 30px;
 }
 .footer_card{
-    display: grid;
+display: grid;
 }
 .footer_card_top{
-    width: 100%;
-max-width: 225px;
+width: 100%;
+max-width: 200px;
 max-height: 127px;
 background-size: cover;  
 background-position:center;
@@ -143,52 +143,53 @@ border-radius: 20px;
 }
 
 .footer__card--img1{
-    background-image: url(../assets/img/Rectangle\ 1823.png);
+background-image: url(../assets/img/Rectangle\ 1823.png);
 }
 .footer__card--img2{
-    background-image: url(../assets/img/Rectangle\ 1823\ \(1\).png);
+background-image: url(../assets/img/Rectangle\ 1823\ \(1\).png);
 }
 .footer__card--img3{
-    background-image: url(../assets/img/Rectangle\ 1823\ \(2\).png);
+background-image: url(../assets/img/Rectangle\ 1823\ \(2\).png);
 }
 .footer__card--img4{
-    background-image: url(../assets/img/Rectangle\ 1823\ \(3\).png);
+background-image: url(../assets/img/Rectangle\ 1823\ \(3\).png);
 }
 .footer__card--img5{
-    background-image: url(../assets/img/Rectangle\ 1823\ \(4\).png);
+background-image: url(../assets/img/Rectangle\ 1823\ \(4\).png);
 }
 .footer__card--img6{
-    background-image: url(../assets/img/Rectangle\ 1823\ \(5\).png);
+background-image: url(../assets/img/Rectangle\ 1823\ \(5\).png);
 }
 .footer__card--img7{
-    background-image: url(../assets/img/Rectangle\ 1823\ \(6\).png);
+background-image: url(../assets/img/Rectangle\ 1823\ \(6\).png);
 }
 .footer__card--img8{
-    background-image: url(../assets/img/Rectangle\ 1823\ \(7\).png);
+background-image: url(../assets/img/Rectangle\ 1823\ \(7\).png);
 }
 .footer__card--img9{
-    background-image: url(../assets/img/Rectangle\ 1823\ \(8\).png);
+background-image: url(../assets/img/Rectangle\ 1823\ \(8\).png);
 }
 .footer__card--img10{
-    background-image: url(../assets/img/Rectangle\ 1823\ \(9\).png);
+background-image: url(../assets/img/Rectangle\ 1823\ \(9\).png);
 }
 
 .footer__card--img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+display: flex;
+justify-content: center;
+align-items: center;
 
 }
 .footer__card__profil{
- width: 95px;
+width: 95px;
 height: 95px;
 display: inline;
 justify-content: center;
-
+position:absolute;
+margin-top: 50px;
 }
 .footer__card__bottom{
 width: 100%;
-width: 226px;
+width: 200px;
 height: 160px;
 display: grid;
 background: #FFFFFF;
@@ -218,5 +219,17 @@ display: grid;
 align-items: center;
 color: #979797;
 padding: 0px;
+
+}
+
+.footer__card__item--svg{
+background-color: #FEA431;
+width: 24px;
+height:24px;
+border-radius: 50%;
+margin-top: 80px;
+position: relative;
+right: -30px;
+top: 20px;
 
 }
