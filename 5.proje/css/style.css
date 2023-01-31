@@ -7,11 +7,22 @@ margin-top:50px;
 margin-left: 10%;
 }
 .nav{
-max-width:90%;
+max-width:100%;
 max-height: 30px;
 }
+.nav_title{
+max-width: 512px;
+max-height: 45px;
+font-family: 'LoRes 9 Plus OT';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 111.8%;
+color: #000000;
+justify-content: space-between;
+margin: 20px ;
+}
 .header{
-margin: 20px;
 display: grid;
 gap: 30px;
 grid-template-columns: 4fr 8fr;
@@ -21,16 +32,15 @@ background-image: url('../assets/img/women.png');
 background-size: cover;  
 background-position:center;
 max-width: 100%;
-max-width: 474px;
+width: 470px;
 height:428px;
+grid-column: 1 / 1;
 display: grid;
 border-radius: 13px;
-align-self: end;
-
 }
 .header__card_box{
-max-width: 437.71px;
-max-height: 77.31px;
+width: 427.71px;
+height: 77.31px;
 background-color: rgba(255, 255, 255, 0.8);
 backdrop-filter: blur(25px);
 border-radius: 15px;
@@ -56,12 +66,10 @@ color: #5E5E5E;
 display: flex;
 flex-wrap: wrap;
 grid-template-columns: 4fr 4fr 4fr;
-justify-content: end;
 grid-column: 2 / 2;
-grid-row: 1;
+grid-row: 2;
 gap: 10px;
-max-width: 650px;
-
+max-width: 750px;
 }
 .header__aside__card{    
 width: 100%;
@@ -80,7 +88,6 @@ background-color: rgba(255, 255, 255, 0.8);
 border: 0.5px solid #C7C7C7;
 backdrop-filter: blur(25px);
 border-radius: 15px;
-align-self: flex-end;
 margin: 10px;
 padding: 10px;
 }
@@ -106,6 +113,17 @@ background-image: url('../assets/img/images\ 1.png');
 display: flex;
 margin-top:80px;
 margin-bottom: 50px;
+justify-content: space-between;
+}
+.article__title{
+width: 221px;
+height: 37px;
+font-family: 'LoRes 9 Plus OT';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 115.8%;
+color: #000000;
 }
 .article__button{
 display: block;
@@ -116,7 +134,7 @@ max-height: 47.99px;
 background: #FFFFFF;
 border: 1px solid #6300FF;
 border-radius: 47px;
-margin-left: 250px;
+margin-left: 340px;
 padding: 10px;
 }
 .footer{
@@ -141,7 +159,6 @@ align-items:flex-end;
 justify-content: center;
 border-radius: 20px;
 }
-
 .footer__card--img1{
 background-image: url(../assets/img/Rectangle\ 1823.png);
 }
@@ -172,12 +189,10 @@ background-image: url(../assets/img/Rectangle\ 1823\ \(8\).png);
 .footer__card--img10{
 background-image: url(../assets/img/Rectangle\ 1823\ \(9\).png);
 }
-
 .footer__card--img{
 display: flex;
 justify-content: center;
 align-items: center;
-
 }
 .footer__card__profil{
 width: 95px;
@@ -196,9 +211,7 @@ background: #FFFFFF;
 border: 0.5px solid #C7C7C7;
 box-shadow: 0px 25px 40px rgba(0, 0, 0, 0.01);
 border-radius: 20px;
-
 }
-
 .footer__card__bottom_title{
 font-family: 'AvertaStd-Bold';
 font-size: 22px;
@@ -209,7 +222,6 @@ text-align: center;
 font-weight: 900;
 color: #0E0E0E;
 }
-
 .footer__card__bottom__text{
 text-align: center;
 font-family: 'AvertaStd-Semibold';
@@ -219,9 +231,7 @@ display: grid;
 align-items: center;
 color: #979797;
 padding: 0px;
-
 }
-
 .footer__card__item--svg{
 background-color: #FEA431;
 width: 24px;
@@ -231,5 +241,38 @@ margin-top: 80px;
 position: relative;
 right: -30px;
 top: 20px;
+}
+@media screen and (max-width:1200px) {
+.header{
+display: flex;
+flex-wrap: wrap;
+max-width: 500px;
+}
+.header__cards{
+display: flex;
+justify-content:start;
+grid-template-columns:  4fr 4fr;
+gap:10px ;
+margin: 0px;
+max-width: 450px;
+display: flex;
+justify-content: space-between;
+}
+.header__card{
+display: flex;
+float: left;
 
+}
+.header__card{
+width: 450px;
+}
+.header__aside__card{
+width: 180px;
+height: 150px;
+}
+.footer{
+display: flex;
+max-width: 450px;
+justify-content: space-between;
+}
 }

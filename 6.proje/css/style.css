@@ -1,0 +1,117 @@
+body{
+background:#13171A   ;}
+.container{
+display:grid;
+justify-content: center;
+gap: 20px;
+}
+.nav__container{
+display: flex;
+justify-content: space-between;
+}
+.search__container{
+max-width: 270px;
+max-height: 40px;
+background: #42474A;
+backdrop-filter: blur(2px);
+border-radius: 10px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 5px;
+}
+.search__input{
+background: #42474a4a;
+backdrop-filter: blur(2px);
+border-radius: 10px;
+border: none;
+outline: none;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+color: #7D7D7D;
+}
+.user__container{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.user__profil{
+max-width: 41px;
+max-height: 41px;
+background: #C4C4C4;
+border-radius:50% ;
+padding: 5px;
+}
+.user__name{
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+color: #C4C4C4;
+}
+.header__title{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 21px;
+color: #F3F3F3;
+
+}
+.section__cards{
+display:flex;
+flex-wrap: wrap;
+gap: 10px;
+}
+.card{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 5px;
+color: white;
+max-width: 97px;
+max-height: 45px;
+border-radius: 10px;
+} 
+.card1{
+background: linear-gradient(90.34deg, #FFA113 8.21%, #F4350A 60.11%);
+background-blend-mode: darken;
+mix-blend-mode: normal; 
+}  
+.card2{
+background: linear-gradient(90.34deg, #5A5752 8.21%, #89807E 60.11%);
+background-blend-mode: darken;
+}
+.card3{
+background: linear-gradient(90.34deg, #FFA113 8.21%, #F4350A 60.11%);
+background-blend-mode: darken;
+mix-blend-mode: normal;
+}
+.card4{
+background: linear-gradient(90.34deg, #FFA113 8.21%, #F4350A 60.11%);
+background-blend-mode: darken;
+mix-blend-mode: normal;
+}
+.card5{
+background: linear-gradient(90.34deg, #5A5752 8.21%, #89807E 60.11%);
+background-blend-mode: darken;
+mix-blend-mode: normal;
+}
+.card6{
+background: linear-gradient(90.34deg, #5A5752 8.21%, #89807E 60.11%);
+background-blend-mode: darken;
+mix-blend-mode: normal;
+}
+.card7{
+background: linear-gradient(180deg, #D2DF3D 0%, #959D3E 100%);
+background-blend-mode: darken;
+mix-blend-mode: normal;
+border-radius: 0px 10px 10px 10px
+}
+.card8{
+background: linear-gradient(180deg, #DFA83D 0%, #8D7840 100%);
+background-blend-mode: darken;
+mix-blend-mode: normal;
+border-radius: 0px 0px 0px 10px;
+}
