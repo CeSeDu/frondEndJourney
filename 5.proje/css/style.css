@@ -90,6 +90,7 @@ backdrop-filter: blur(25px);
 border-radius: 15px;
 margin: 10px;
 padding: 10px;
+align-self: flex-end;
 }
 .aside__card--img1{
 background-image: url('../assets/img/photo-1580089056071-11f31b94fefe\ 1.png');
