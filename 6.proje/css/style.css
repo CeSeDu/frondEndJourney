@@ -1,13 +1,32 @@
 body{
-background:#13171A   ;}
+background:#13171A;
+}
 .container{
-display:grid;
+display: grid;
 justify-content: center;
 gap: 20px;
+margin: 50px;
 }
 .nav__container{
 display: flex;
 justify-content: space-between;
+max-width:900px;
+}
+.nav__aside__container{
+gap: 10px;
+display: flex;
+justify-content: end;
+}
+.article__container{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+max-width: 900px;
+gap: 40px;
+}
+.section__cards{
+justify-content:space-between;
+max-width: 1000px;  
 }
 .search__container{
 max-width: 270px;
@@ -50,6 +69,12 @@ font-weight: 400;
 font-size: 15px;
 line-height: 18px;
 color: #C4C4C4;
+background-color: #13171A;
+border: none;
+outline: none;
+}
+.notification{
+padding-left:50px;
 }
 .header__title{
 font-family: 'Roboto';
@@ -57,21 +82,22 @@ font-style: normal;
 font-weight: 900;
 font-size: 21px;
 color: #F3F3F3;
-
+margin: 20px 0px;
 }
 .section__cards{
 display:flex;
-flex-wrap: wrap;
+margin: 30px 0px;
 gap: 10px;
 }
 .card{
 display: flex;
 justify-content: center;
 align-items: center;
-padding: 5px;
+padding: 10px;
 color: white;
-max-width: 97px;
-max-height: 45px;
+width: 100%;
+max-width: 87px;
+max-height: 55px;
 border-radius: 10px;
 } 
 .card1{
@@ -114,4 +140,158 @@ background: linear-gradient(180deg, #DFA83D 0%, #8D7840 100%);
 background-blend-mode: darken;
 mix-blend-mode: normal;
 border-radius: 0px 0px 0px 10px;
+}
+
+.main__card{
+font-family: 'Roboto';
+font-style: normal;
+width: 270px;
+max-height:max-content;
+background: linear-gradient(183.65deg, #212429 3%, rgba(108, 112, 118, 0) 107%);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 15px;
+
+}
+.main__card__nav{
+display: flex;
+justify-content: space-between;
+padding: 20px;
+}
+.info_text_container{
+padding: 5px;
+}
+.main__card__nav__container{
+display: grid;
+}
+.main__card__nav--title{
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+color: #D4D7DC;
+}
+.info__text{
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+color: #D4D7DC;
+display: block;
+}
+.info__text__container{
+justify-content: start;
+}
+.info__text__container1{
+margin-right: 50px;
+}
+.subtext__container{
+display: flex;
+font-size: 12px;
+line-height: 14px;
+color: #FFFFFF;
+justify-content: space-between;
+
+}
+.info__subtext{
+font-size: 12px;
+line-height: 14px;
+color: #888888;
+justify-content: start;
+}
+.main__card__nav--text{
+font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+color: #888888;
+}
+.main__card__nav__profile{
+width: 41px;
+height: 41px;
+border-radius: 50%;
+background: #BE2828;
+justify-content: center;
+align-items: center;
+display: grid;
+}
+.main__card__nav__profileM{
+background: #B148A7;
+width: 41px;
+height: 41px;
+border-radius: 50%;
+justify-content: center;
+align-items: center;
+display: grid;
+}
+.main__card__nav__profileA{
+width: 41px;
+height: 41px;
+border-radius: 50%;
+background: #159D3B;
+justify-content: center;
+align-items: center;
+display: grid;
+}
+.info_container{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+align-items: center;
+margin: 10px ;
+
+
+}
+.main__card_info_footer{
+display: flex;
+border-top: 1px solid #414448;
+margin-top: 20px;
+padding-top: 20px;
+gap: 10px;
+justify-content: space-between;
+}
+.footer__text__container{
+display: grid;
+align-self: flex-start;
+}
+
+.main__card__footer__button{
+width: 45px;
+height: 45px;
+background: linear-gradient(90.34deg, #FFA113 8.21%, #F4350A 60.11%);
+background-blend-mode: darken;
+mix-blend-mode: normal;
+align-self: flex-start;
+border-radius: 10px;
+}
+.main__card__footer__button__cancel{
+width: 45px;
+height: 45px;
+background: linear-gradient(90.34deg, #5A5752 8.21%, #89807E 60.11%);
+background-blend-mode: darken;
+mix-blend-mode: normal;
+border-radius: 10px;
+margin: 0px;
+
+}
+.main__card__footer__button__cancel_text{
+width: 143px;
+height: 45px;
+background: linear-gradient(90.34deg, #5A5752 8.21%, #89807E 60.11%);
+background-blend-mode: darken;
+mix-blend-mode: normal;
+border-radius: 10px;
+color: #9C9292;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.main__card__footer__button__complete{
+width: 143px;
+height: 45px;
+color: #FFFFFF;
+background: linear-gradient(90.34deg, #FFA113 8.21%, #F4350A 60.11%);
+background-blend-mode: darken;
+mix-blend-mode: normal;
+border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+
 }
