@@ -1,5 +1,7 @@
 body{
 background: linear-gradient(180deg, #31363A 0%, #13171A 100%);
+overflow-x: hidden;
+
 }
 .container{
 display: grid;
@@ -17,28 +19,22 @@ gap: 10px;
 display: flex;
 justify-content: end;
 }
-.article__container{
+.main__card__container{
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
 max-width: 900px;
 gap: 40px;
 }
-.section__cards{
-justify-content:flex-start;
-max-width: 900px;  
-flex-wrap:wrap ;
-}
 .search__container{
-max-width: 270px;
-max-height: 40px;
+width: 255px;
+height: 25px;
 background: #42474A;
 backdrop-filter: blur(2px);
 border-radius: 10px;
 display: flex;
-justify-content: space-between;
 align-items: center;
-padding: 5px;
+padding: 15px;
 }
 .search__input{
 background: #42474a4a;
@@ -46,11 +42,10 @@ backdrop-filter: blur(2px);
 border-radius: 10px;
 border: none;
 outline: none;
-font-family: 'Roboto';
-font-style: normal;
+width: 47px;
+height: 18px;
 font-weight: 400;
 font-size: 15px;
-line-height: 18px;
 color: #7D7D7D;
 }
 .user__container{
@@ -59,12 +54,18 @@ justify-content: center;
 align-items: center;
 }
 .user__profil{
-max-width: 41px;
-max-height: 41px;
+width: 41px;
+height: 41px;
 background: #C4C4C4;
 border-radius:50% ;
-padding: 5px;
 cursor: pointer;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+color: #FFFFFF;
+display: grid;
+justify-content: center;
+align-items: center;
 }
 .user__name{
 font-weight: 400;
@@ -78,6 +79,9 @@ outline: none;
 .notification{
 padding-left:50px;
 cursor: pointer;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 .header__title{
 font-family: 'Roboto';
@@ -87,11 +91,34 @@ font-size: 21px;
 color: #F3F3F3;
 margin: 20px 0px;
 }
+.orderList__container{
+    display: grid;
+    justify-content: center;
+}
+
 .section__cards{
 display:flex;
-margin: 30px 0px;
+padding: 10px 0px;
 gap: 10px;
-}
+flex-wrap: nowrap;
+justify-content:flex-start;
+overflow-x: scroll;
+max-width: 900px;
+} 
+  /* Works on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: #31363A;
+    border: none;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: #13171a53;
+    border: 7px solid #31363A;
+  }
 .card{
 display: flex;
 justify-content: center;
@@ -99,39 +126,20 @@ align-items: center;
 padding: 10px;
 color: white;
 width: 100%;
-max-width: 82px;
-max-height: 55px;
+width: 97px;
+max-height: 45px;
 border-radius: 10px;
 cursor: pointer;
+
 } 
-.card1{
+.linear__orange{
 background: linear-gradient(90.34deg, #FFA113 8.21%, #F4350A 60.11%);
 background-blend-mode: darken;
 mix-blend-mode: normal; 
 }  
-.card2{
+.linear__gray{
 background: linear-gradient(90.34deg, #5A5752 8.21%, #89807E 60.11%);
 background-blend-mode: darken;
-}
-.card3{
-background: linear-gradient(90.34deg, #FFA113 8.21%, #F4350A 60.11%);
-background-blend-mode: darken;
-mix-blend-mode: normal;
-}
-.card4{
-background: linear-gradient(90.34deg, #FFA113 8.21%, #F4350A 60.11%);
-background-blend-mode: darken;
-mix-blend-mode: normal;
-}
-.card5{
-background: linear-gradient(90.34deg, #5A5752 8.21%, #89807E 60.11%);
-background-blend-mode: darken;
-mix-blend-mode: normal;
-}
-.card6{
-background: linear-gradient(90.34deg, #5A5752 8.21%, #89807E 60.11%);
-background-blend-mode: darken;
-mix-blend-mode: normal;
 }
 .card7{
 background: linear-gradient(180deg, #D2DF3D 0%, #959D3E 100%);
@@ -179,7 +187,7 @@ font-size: 16px;
 line-height: 19px;
 color: #D4D7DC;
 display: block;
-padding: 5px 0px;
+padding: px 0px;
 }
 .info__text__container{
 justify-content: start;
@@ -193,7 +201,7 @@ font-size: 12px;
 line-height: 14px;
 color: #FFFFFF;
 justify-content: space-between;
-
+margin-top: 10px;
 
 }
 .info__subtext{
@@ -261,8 +269,7 @@ align-self: flex-start;
 }
 
 .main__card__footer__button{
-width: 45px;
-height: 45px;
+padding: 11px;
 background: linear-gradient(90.34deg, #FFA113 8.21%, #F4350A 60.11%);
 background-blend-mode: darken;
 mix-blend-mode: normal;
@@ -271,18 +278,16 @@ border-radius: 10px;
 cursor: pointer;
 }
 .main__card__footer__button__cancel{
-width: 45px;
-height: 45px;
+padding: 16px;
 background: linear-gradient(90.34deg, #5A5752 8.21%, #89807E 60.11%);
 background-blend-mode: darken;
 mix-blend-mode: normal;
 border-radius: 10px;
-margin: 0px;
 cursor: pointer;
 }
 .main__card__footer__button__cancel_text{
-width: 143px;
-height: 45px;
+    padding: 16px;
+    gap: 12px;
 background: linear-gradient(90.34deg, #5A5752 8.21%, #89807E 60.11%);
 background-blend-mode: darken;
 mix-blend-mode: normal;
@@ -294,8 +299,8 @@ align-items: center;
 cursor: pointer;
 }
 .main__card__footer__button__complete{
-width: 143px;
-height: 45px;
+padding: 12px;
+gap: 12px;
 color: #FFFFFF;
 background: linear-gradient(90.34deg, #FFA113 8.21%, #F4350A 60.11%);
 background-blend-mode: darken;
@@ -313,4 +318,26 @@ width:108px;
 width: 75px;
 height: 75px;
 margin: 16px;
+}
+
+@media only screen and (max-width: 500px) {
+     .container{
+        margin: 10px 0px;
+     }
+    .nav__container{
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        gap: 0px;
+    }
+    .search__container{
+        width: 200px;
+    }
+    .user__name{
+        width: 15px;
+    }
+    .notification{
+        padding-left:0px;
+    }
+   
 }
