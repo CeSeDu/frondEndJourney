@@ -1,11 +1,12 @@
 body{
 background: #171717;
-
+overflow-x: hidden;
 }
 .container{
 display: grid;
 justify-content: center;
 gap: 90px;
+
 }
 /*NAV*/
 .nav__container{
@@ -201,7 +202,7 @@ bottom: -5px;
 max-width: 1400px;
 display: grid;
 grid-template-columns: repeat(2, 1fr);
-
+gap: 12px;
 }
 .article__card__title{
 width: 10px;
@@ -340,7 +341,7 @@ font-weight: 900;
 width: 680px;
 display: flex;
 flex-wrap: wrap;
-gap:24px;
+gap:14px;
 }
 .small__card{
 display: flex;
@@ -474,7 +475,7 @@ position: absolute;
 .vertical__cards__container{
 display: flex;
 flex-wrap: wrap;
-gap: 30px;
+gap: 24px;
 margin-top: 32px;
 }
 .vertical__cards__title{
@@ -674,7 +675,7 @@ max-width: 344px;
 }
 .vertical__cards__container{
 display: grid;
-gap: 32px;
+gap: 24px;
 }
 .small__card__vertical{
 display: flex;
