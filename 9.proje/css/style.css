@@ -13,7 +13,7 @@ display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
 padding: 26px 40px 0px 0px;
-max-width: 1440px;
+max-width: 1400px;
 }
 .nav__center__items__container{
 display: flex;
@@ -46,7 +46,7 @@ width: max-content;
 cursor: pointer;
 }
 .profile__photo{
-    cursor: pointer;
+cursor: pointer;
 }
 .game__shop{
 display: grid;
@@ -148,7 +148,7 @@ background-repeat:no-repeat;
 display: grid;
 justify-content: center;
 grid-template-columns: repeat(2, 1fr);
-max-width: 1440px;
+max-width: 1400px;
 }
 .header__content__title{
 text-transform: uppercase;
@@ -193,12 +193,12 @@ color: #171717;
 .header__img{
 position: relative;
 bottom: -5px;
-left: 20px;
+
 
 }
 /*ARTİCLE*/
 .article__cart__container{
-max-width: 1440px;
+max-width: 1400px;
 display: grid;
 grid-template-columns: repeat(2, 1fr);
 
@@ -215,7 +215,6 @@ display: flex;
 max-width: 668px;
 max-height: 448px;
 background: #202020;
-margin-right: 12px;
 border-radius: 16px;
 }
 .article__big__card__left{
@@ -224,7 +223,6 @@ padding: 25px 0px 0px 54px;
 }
 .article__big__card__right{
 padding: 32px 25px;
-padding-left: -0px;
 }
 .article__big__card__title__container{
 max-width: 300px;
@@ -425,17 +423,17 @@ font-weight: 400;
 font-size: 11px;
 }
 .small__card__vertical{
-    display: flex;
-    flex-wrap:wrap ;
-    width: 322px;
-    max-height: 212px;
-    background: #202020;
-    border-radius: 16px;
+display: flex;
+flex-wrap:wrap ;
+width: 322px;
+max-height: 212px;
+background: #202020;
+border-radius: 16px;
 }
 .small__card__vertical__content{
-    display: flex;
-    padding: 20px;
-    margin-top: 80px;
+display: flex;
+padding: 20px;
+margin-top: 80px;
 
 }
 .small__Card__vertical__title{
@@ -455,32 +453,32 @@ font-size: 12px;
 color: #FFFFFF;
 }
 .small__card__vertical__left{
-    display: grid;
-   gap: 10px;
-   justify-content: space-between;
+display: grid;
+gap: 10px;
+justify-content: space-between;
 }
 
 .small__card__vertical__right{
-    display: grid;
-    margin-top: 10px;
+display: grid;
+margin-top: 10px;
 
 }
 
 
 .small__card__vertical__header{
-    position: absolute;
+position: absolute;
 
 }
 /*articlevertical cards*/
 
 .vertical__cards__container{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
-    margin-top: 32px;
+display: flex;
+flex-wrap: wrap;
+gap: 30px;
+margin-top: 32px;
 }
 .vertical__cards__title{
-    width: 110px;
+width: 110px;
 height: 26px;
 font-weight: 700;
 font-size: 20px;
@@ -489,14 +487,14 @@ color: #FFFFFF;
 
 /*FOOTER*/
 .footer__container{
-    display: flex;
-    max-width: 1280px;
-    height: 100px;
-    background: #202020;
-    align-items: center;
-    justify-content: space-between;
-    align-self: center;
-    padding: 0px 40px;
+display: flex;
+max-width: 1300px;
+height: 100px;
+background: #202020;
+align-items: center;
+justify-content: space-between;
+align-self: center;
+padding: 0px 40px;
 }
 .container__button{
 display: flex;
@@ -504,9 +502,9 @@ gap:20px;
 cursor: pointer;
 }
 .footer__button__container{
-    height: 10px;
-    width: 124px;
-    display: flex;
+height: 10px;
+width: 124px;
+display: flex;
 background: #171717;
 border: 1.5px solid #FFFFFF;
 border-radius: 50px;
@@ -526,30 +524,30 @@ cursor: pointer;
 
 }
 .footer__item__svg{
-    position:relative;
-    left: -15px;
-    background-color: #ebd775;
-    width: max-content;
-    border-radius: 50%;
-    width: 12px;
-    height: 12px;
-    padding: 0px;
+position:relative;
+left: -15px;
+background-color: #ebd775;
+width: max-content;
+border-radius: 50%;
+width: 12px;
+height: 12px;
+padding: 0px;
 }
 .item__size{
-    width: max-content;
-    position:relative;
-    right: -10px;
+width: max-content;
+position:relative;
+right: -10px;
 }
 .footer__item__svg__2{
 background-color: #FFFFFF;
 border-radius: 50%;
 }
 #color{
-    fill: black;
+fill: black;
 }
 #color-2{
-    fill: black;
-    background-color: #F6CE0E;
+fill: black;
+background-color: #F6CE0E;
 }
 .footer__button__text{
 font-weight: 700;
@@ -558,52 +556,52 @@ color: #FFFFFF;
 cursor: pointer;
 }
 .footer__svg__black{
-    background-color: #171717;
+background-color: #171717;
 }
 .svg__color__container{
-    background-color:  #FFCB7C;
-    padding: 3px;
-    border-radius: 50%;
-    justify-content: center;
-    align-items: center;
-    align-self:center;
-    display: grid;
+background-color:  #FFCB7C;
+padding: 3px;
+border-radius: 50%;
+justify-content: center;
+align-items: center;
+align-self:center;
+display: grid;
 }
 .footer__button__item__color{
-    background-color: #0B799D;
-    justify-content: center;
-    display: grid;
-    align-items: center;
-    align-self: center;
-    border-radius: 50%;
-    padding: 3px;
+background-color: #0B799D;
+justify-content: center;
+display: grid;
+align-items: center;
+align-self: center;
+border-radius: 50%;
+padding: 3px;
 }
 
 .telegram__item__container{
-    width: 14px;
-    height: 14px;
+width: 14px;
+height: 14px;
 background: linear-gradient(203.2deg, #37AEE2 21.67%, #1E96C8 70%);
-    border-radius: 50%;
-    padding:5px;
-    justify-content: center;
-    display: grid;
-    align-items: center;
-    cursor: pointer;
+border-radius: 50%;
+padding:5px;
+justify-content: center;
+display: grid;
+align-items: center;
+cursor: pointer;
 }
 .social__buttons{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 50px;
 
 }
 .footer__end__container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    align-self: center;
-    gap: 50px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+align-self: center;
+gap: 50px;
 }
 .footer__end__item{
 width: 68px;
@@ -615,14 +613,14 @@ cursor: pointer;
 
 }
 .twitter__item,.discord__item{
-    cursor: pointer;
+cursor: pointer;
 }
 /*SCREEN SİZE*/
 
 @media (max-width: 1100px) {
 .container{
-    margin: 0px;
-    padding: 0px;
+margin: 0px;
+padding: 0px;
 width: 100%;
 display: grid;
 justify-content: center;
@@ -654,7 +652,7 @@ align-items: center;
 align-self: center;
 grid-template-columns: repeat(1, 1fr);
 flex-wrap: wrap;
-gap: 40px;
+gap: 20px;
 }
 .article__left__container
 {
@@ -666,58 +664,59 @@ max-width: 350px;
 display: grid;
 max-width: 328px;
 max-height: 948px;
+padding: 6px;
 }
 .cards__container{
 width: 300px;
 }
 .small__card{
-    max-width: 344px;
+max-width: 344px;
 }
 .vertical__cards__container{
-    display: grid;
-    gap: 32px;
+display: grid;
+gap: 32px;
 }
 .small__card__vertical{
-    display: flex;
-    flex-wrap:wrap ;
-    width: 344px;
-    max-height: 212px;
-    background: #202020;
-    border-radius: 16px;
+display: flex;
+flex-wrap:wrap ;
+width: 344px;
+max-height: 212px;
+background: #202020;
+border-radius: 16px;
 }
 .button__size{
-    width: 125px;
+width: 125px;
 }
 .vertical__size{
-    padding:  0px 18px;
+padding:  0px 18px;
 }
 .container__button{
-    display: grid;
-    width: 100%;
-     padding-top: 10px;
+display: grid;
+width: 100%;
+padding-top: 10px;
 }
 
 .footer__container{
-    display: grid;
-    width: 100%;
-    height: max-content;
-    gap: 24px;
-    justify-content: center;
+display: grid;
+width: 100%;
+height: max-content;
+gap: 24px;
+justify-content: center;
 }
 .social__buttons{
-    display: grid;
-   
+display: grid;
+
 }
 .footer__end__container{
-    display: grid;
-    padding-bottom: 20px;
+display: grid;
+padding-bottom: 20px;
 }
 }
 @media (max-width: 450px) {
-    .container{
-        width: 350px;
-        margin-left: 10px;
-    }
+.container{
+width: 350px;
+margin-left: 10px;
+}
 .nav__container{
 justify-content: center;
 overflow: hidden;
@@ -734,4 +733,4 @@ gap: 2px;
 width: 110px;
 
 }
-}
+} 
