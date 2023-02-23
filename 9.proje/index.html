@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<div class="container">
+<nav class="nav__container">
+<img src="./assets/img/image 53.png" alt="">
+
+<div class="nav__center__items__container">
+<div class="nav__item">
+<svg  width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M18 20C18.5523 20 19 19.5523 19 19V10H22L11.673 0.612042C11.2915 0.264899 10.7085 0.264899 10.327 0.612042L0 10H3V19C3 19.5523 3.44772 20 4 20H18ZM11.0012 16.5002C8.51594 16.5002 6.50122 14.4855 6.50122 12.0002H8.50122C8.50122 13.381 9.62051 14.5002 11.0012 14.5002C12.3819 14.5002 13.5012 13.381 13.5012 12.0002H15.5012C15.5012 14.4855 13.4865 16.5002 11.0012 16.5002Z" fill="white"/>
+</svg>
+</div>
+<div class="nav__item__profile__container">
+<svg  width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M10 0.25C8.07164 0.25 6.18657 0.821828 4.58319 1.89317C2.97982 2.96451 1.73013 4.48726 0.992179 6.26884C0.254225 8.05042 0.061142 10.0108 0.437348 11.9021C0.813554 13.7934 1.74215 15.5307 3.10571 16.8943C4.46928 18.2579 6.20656 19.1865 8.09787 19.5627C9.98919 19.9389 11.9496 19.7458 13.7312 19.0078C15.5127 18.2699 17.0355 17.0202 18.1068 15.4168C19.1782 13.8134 19.75 11.9284 19.75 10C19.7471 7.41504 18.7189 4.93679 16.8911 3.10894C15.0632 1.28109 12.585 0.252926 10 0.25ZM16.1648 15.476C15.5628 14.6037 14.782 13.8695 13.8744 13.3221C12.8308 14.3188 11.4432 14.875 10 14.875C8.55686 14.875 7.16923 14.3188 6.12558 13.3221C5.218 13.8695 4.43724 14.6037 3.83516 15.476C2.77814 14.2874 2.08725 12.8186 1.84568 11.2464C1.60411 9.67426 1.82217 8.06579 2.4736 6.6147C3.12502 5.16361 4.18204 3.93177 5.51737 3.06752C6.85269 2.20327 8.40939 1.74346 9.99999 1.74346C11.5906 1.74346 13.1473 2.20327 14.4826 3.06752C15.8179 3.93177 16.875 5.16361 17.5264 6.6147C18.1778 8.06579 18.3959 9.67426 18.1543 11.2464C17.9127 12.8186 17.2218 14.2874 16.1648 15.476Z" fill="white"/>
+</svg>
+<svg class="nav__item__profile" width="10" height="9" viewBox="0 0 10 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5 8.375C7.27817 8.375 9.125 6.52817 9.125 4.25C9.125 1.97183 7.27817 0.125 5 0.125C2.72183 0.125 0.875 1.97183 0.875 4.25C0.875 6.52817 2.72183 8.375 5 8.375Z" fill="white"/>
+</svg>
+</div>
+<div class="nav__center__button">
+<div class="button__item"> <div class="button__item__text">NFT</div></div>
+<div class="button__text">Shop NFT</div>
+</div>
+<div class="game__shop">
+<svg class="gameShop__item"  width="10" height="4" viewBox="0 0 10 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5.00103 2.87985e-05C4.08285 -0.00333794 3.18791 0.288573 2.4483 0.832677C1.7087 1.37678 1.16361 2.14425 0.893504 3.0218C0.837289 3.20273 0.855238 3.39858 0.943404 3.56628C1.03157 3.73398 1.18273 3.85979 1.36365 3.91605C1.43246 3.93726 1.50405 3.94808 1.57606 3.94815C1.72841 3.94808 1.87676 3.89931 1.99943 3.80895C2.1221 3.7186 2.21267 3.59139 2.25791 3.44591C2.44028 2.86157 2.8045 2.35075 3.2975 1.98788C3.79049 1.62501 4.38648 1.42906 4.99862 1.4286C5.61076 1.42813 6.20705 1.62316 6.70059 1.98528C7.19414 2.3474 7.55914 2.85766 7.7424 3.44172C7.7992 3.62234 7.92536 3.77303 8.09318 3.86069C8.261 3.94835 8.45675 3.96582 8.63744 3.90926C8.81813 3.8527 8.96898 3.72673 9.05685 3.55902C9.14473 3.39132 9.16245 3.19559 9.10612 3.01483C8.83475 2.13906 8.28947 1.37351 7.5505 0.830801C6.81153 0.288094 5.91788 -0.00311134 5.00103 2.87985e-05Z" fill="white"/>
+</svg>
+<svg  width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0.714293 13.7427C0.715064 14.2406 0.880172 14.7242 1.18399 15.1186C1.4878 15.5131 1.91333 15.7961 2.39451 15.924C2.87569 16.0518 3.3856 16.0172 3.84509 15.8255C4.30458 15.6338 4.68795 15.2958 4.93567 14.864L6.38568 11.4427C6.49483 11.1843 6.67772 10.9638 6.9115 10.8088C7.14527 10.6538 7.41956 10.5712 7.70005 10.5713H12.3C12.5805 10.5712 12.8548 10.6538 13.0886 10.8088C13.3224 10.9638 13.5053 11.1843 13.6144 11.4427L15.0644 14.864C15.3121 15.2959 15.6955 15.6339 16.155 15.8256C16.6145 16.0173 17.1244 16.0519 17.6056 15.9241C18.0868 15.7963 18.5123 15.5132 18.8161 15.1187C19.1199 14.7243 19.285 14.2406 19.2857 13.7427C19.2857 13.7427 20 5.84263 20 5.57124C20.0005 4.91449 19.8715 4.26409 19.6204 3.65723C19.3693 3.05038 19.001 2.49899 18.5366 2.0346C18.0722 1.5702 17.5208 1.20192 16.914 0.950825C16.3071 0.699726 15.6567 0.570734 15 0.571229H5.00004C4.34329 0.570734 3.69288 0.699726 3.08603 0.950825C2.47917 1.20192 1.92777 1.5702 1.46338 2.0346C0.998981 2.49899 0.630699 3.05038 0.379599 3.65723C0.128499 4.26409 -0.000493582 4.91449 1.41926e-06 5.57124C1.41926e-06 5.70692 0.178574 7.74968 0.357147 9.75687C0.53572 11.7713 0.714293 13.7427 0.714293 13.7427ZM2.85717 5.42828H3.57146C3.66527 5.42829 3.75815 5.40983 3.84482 5.37393C3.93149 5.33804 4.01023 5.28543 4.07656 5.2191C4.14289 5.15277 4.19551 5.07402 4.2314 4.98736C4.26729 4.90069 4.28576 4.8078 4.28575 4.714V3.99971C4.28575 3.81027 4.36101 3.62859 4.49496 3.49463C4.62892 3.36068 4.8106 3.28542 5.00004 3.28542C5.18949 3.28542 5.37117 3.36068 5.50512 3.49463C5.63908 3.62859 5.71434 3.81027 5.71434 3.99971V4.714C5.71433 4.8078 5.7328 4.90069 5.76869 4.98735C5.80458 5.07402 5.8572 5.15277 5.92353 5.2191C5.98986 5.28542 6.0686 5.33804 6.15527 5.37393C6.24194 5.40982 6.33482 5.42829 6.42863 5.42828H7.14292C7.33236 5.42828 7.51404 5.50354 7.648 5.63749C7.78196 5.77145 7.85721 5.95313 7.85721 6.14257C7.85721 6.33201 7.78196 6.51369 7.648 6.64765C7.51404 6.7816 7.33236 6.85686 7.14292 6.85686H6.42863C6.23919 6.85687 6.05751 6.93213 5.92356 7.06608C5.7896 7.20003 5.71435 7.38171 5.71434 7.57115V8.28543C5.71434 8.47487 5.63908 8.65656 5.50512 8.79051C5.37117 8.92447 5.18949 8.99972 5.00004 8.99972C4.8106 8.99972 4.62892 8.92447 4.49496 8.79051C4.36101 8.65656 4.28575 8.47487 4.28575 8.28543V7.57115C4.28575 7.38171 4.2105 7.20002 4.07654 7.06607C3.94259 6.93211 3.7609 6.85686 3.57146 6.85686H2.85717C2.66773 6.85686 2.48604 6.7816 2.35209 6.64765C2.21813 6.51369 2.14288 6.33201 2.14288 6.14257C2.14288 5.95313 2.21813 5.77145 2.35209 5.63749C2.48604 5.50354 2.66773 5.42828 2.85717 5.42828V5.42828Z" fill="white"/>
+</svg>
+
+</div>
+
+<div class="nav__item">
+<svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5.76 12.24C4.67 11.16 4 9.65999 4 7.99999C4 6.33999 4.67 4.83999 5.76 3.75999L7.18 5.17999C6.45 5.89999 6 6.89999 6 7.99999C6 9.09999 6.45 10.1 7.17 10.83L5.76 12.24ZM14.24 12.24C15.33 11.16 16 9.65999 16 7.99999C16 6.33999 15.33 4.83999 14.24 3.75999L12.82 5.17999C13.55 5.89999 14 6.89999 14 7.99999C14 9.09999 13.55 10.1 12.83 10.83L14.24 12.24ZM10 5.99999C8.9 5.99999 8 6.89999 8 7.99999C8 9.09999 8.9 9.99999 10 9.99999C11.1 9.99999 12 9.09999 12 7.99999C12 6.89999 11.1 5.99999 10 5.99999ZM18 7.99999C18 10.21 17.1 12.21 15.65 13.65L17.07 15.07C18.88 13.26 20 10.76 20 7.99999C20 5.23999 18.88 2.73999 17.07 0.929993L15.65 2.34999C17.1 3.78999 18 5.78999 18 7.99999ZM4.35 2.34999L2.93 0.929993C1.12 2.73999 0 5.23999 0 7.99999C0 10.76 1.12 13.26 2.93 15.07L4.35 13.65C2.9 12.21 2 10.21 2 7.99999C2 5.78999 2.9 3.78999 4.35 2.34999Z" fill="white"/>
+</svg>
+</div>
+<div class="nav__item">
+<svg  class="nav__item" width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 8.94737H3.55556V17H0V8.94737ZM12.4444 5.36842H16V17H12.4444V5.36842ZM6.22222 0H9.77778V17H6.22222V0Z" fill="white"/>
+</svg>
+
+</div>
+
+
+
+
+</div>
+<div class="nav__right__container">
+<div class="notification__container">
+<div class="notification__number__container">
+<div class="notification__number">
+2
+</div>
+</div>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M24 17.1428H21.6V9.1428C21.6 4.09337 17.3019 0 12 0C6.69807 0 2.4 4.09337 2.4 9.1428V17.1428H0V19.4285H24V17.1428ZM15.6 21.7143H8.39996V24H15.6V21.7143Z" fill="white"/>
+</svg>
+
+</div>
+
+<div class="profile__photo">
+<img src="./assets/img/Ellipse 8.png" alt="">
+</div>
+
+<div class="nav__user__name__container">
+<div class="user__item">
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="8" cy="8" r="8" fill="#079136"/>
+</svg>
+</div>
+<div class="user__name">0xbAo7..f08a</div>
+</div>
+</div>
+</nav>
+<header class="header__container">
+<div class="header__content__left">
+<div class="header__content__title">
+mined fresh  from the inter-Realms 
+</div>
+<div class="header__content__button">
+<div class="header__content__button--item button__item"> <div class="header__button__item__text button__item__text">NFT</div></div>
+<div class="header__content__button--text"> Shop the lastest NFT’s</div>                </div>
+</div>
+<div class="header__content__right">
+<img class="header__img" src="./assets/img/image 49.png" alt="">
+</div>
+</header>
+
+<article class="article__cart__container">
+<div class="article__left__container">
+<div class="article__card__title">
+Featured Items
+</div>
+<div class="article__big__card">
+<div class="article__big__card__left">
+<img src="./assets/img/image 51.png" alt="">    
+</div>
+<div class="article__big__card__right">
+
+<div class="article__big__card__title__container">
+<div class="article__big__card__title">STORM SKIN</div>
+<div class="article__big__card__title__item__container">
+<svg width="12" height="17" viewBox="0 0 12 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M6.66602 7.08334H11.3327L5.33268 16.2917V9.91668H0.666016L6.66602 0.708344V7.08334Z" fill="#171717"/>
+</svg>
+
+</div>
+</div>
+
+<div class="card__subtitle">Description</div>
+<div class="big__card__text">
+Representing her home country of South Korea, Jett's <br>
+agile and evasive fighting style lets her take risks no one <br>
+else can. She runs circles around every skirmish, cutting <br> enemies before they even know what hit them.
+</div>
+<div class="big__card__subtitle">Ability Skin</div>
+
+<div class="card__items__container">
+<div class="big__card__item">
+<svg width="16" height="22" viewBox="0 0 16 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M7.99936 22C6.49651 21.9999 5.02836 21.5483 3.78527 20.7037C2.54217 19.8592 1.58146 18.6606 1.02771 17.2635C0.473952 15.8664 0.35269 14.3352 0.679644 12.8683C1.0066 11.4015 1.76669 10.0667 2.86136 9.037C4.20336 7.774 7.49936 5.5 6.99936 0.5C12.9994 4.5 15.9994 8.5 9.99936 14.5C10.9994 14.5 12.4994 14.5 14.9994 12.03C15.2694 12.803 15.4994 13.634 15.4994 14.5C15.4994 16.4891 14.7092 18.3968 13.3027 19.8033C11.8961 21.2098 9.98849 22 7.99936 22Z" fill="#F6CE0E"/>
+</svg>
+<div class="big__card__item__text">2.38</div>
+
+</div>
+<div class="big__card__item">
+<svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5.04913 10.406L8.58312 13.942L7.17012 15.356L8.58512 16.771L7.17112 18.185L4.69613 15.71L1.86713 18.539L0.453125 17.125L3.28212 14.295L0.807125 11.821L2.22113 10.407L3.63513 11.82L5.04812 10.406H5.04913ZM0.999125 0L4.54513 0.00300002L16.3621 11.821L17.7771 10.407L19.1911 11.821L16.7171 14.296L19.5451 17.125L18.1311 18.539L15.3021 15.71L12.8271 18.185L11.4131 16.771L12.8271 15.356L1.00213 3.531L0.999125 0ZM15.4561 0L18.9991 0.00300002L19.0011 3.526L14.9481 7.578L11.4121 4.043L15.4561 0Z" fill="#F6CE0E"/>
+</svg>
+<div class="big__card__item__text">1.38</div>
+
+</div>
+<div class="big__card__item">
+<svg width="19" height="22" viewBox="0 0 19 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M15.654 0.700012L12.872 3.23301C14.167 3.6242 15.359 4.29809 16.362 5.20601C19.874 8.40601 19.874 13.594 16.362 16.794C13.77 19.154 9.76398 20.656 4.34597 21.3L7.12797 18.767C5.83292 18.3758 4.6409 17.7019 3.63797 16.794C0.125975 13.594 0.104975 8.42501 3.63797 5.20601C6.22997 2.84601 10.237 1.34401 15.655 0.700012H15.654ZM9.99997 7.00001C7.51497 7.00001 5.49997 8.79001 5.49997 11C5.49997 13.21 7.51497 15 9.99997 15C12.485 15 14.5 13.21 14.5 11C14.5 8.79001 12.485 7.00001 9.99997 7.00001Z" fill="#F6CE0E"/>
+</svg>
+<div class="big__card__item__text">8.38</div>
+</div>
+</div>
+
+<div class="big__card__footer">
+<div class="card__footer__item__container">
+<svg width="16" height="24" viewBox="0 0 16 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M7.94408 17.97L0.580078 13.62L7.94308 24L15.3131 13.62L7.94108 17.97H7.94408ZM8.05608 0L0.690078 12.223L8.05508 16.577L15.4201 12.227L8.05608 0Z" fill="#F6CE0E"/>
+</svg>
+<div class="footer__item__text">0,094 ETH</div>  
+</div>
+<div class="big__card__footer__button">
+<div class="footer__button__item__conteiner">
+<div class="footer__button__item">NFT</div>
+</div>
+<div class="card__footer__button__text">Buy NFT</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="article__right__container">
+<div class="article__card__title">
+Popular <br> Items
+</div>
+<div class="cards__container">
+<div class="small__card">
+<div class="small__card__left">
+<img src="./assets/img/4_1.png" alt="">
+</div>
+<div class="small__card__right">
+<div class="small__card__title">SERC SKIN</div>
+<div class="small__card__subtitle">Description</div>
+<div class="small__card__text">Representing her home country of South.</div>
+<div class="small__card__item__container">
+<svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5.36832 11.98L0.458984 9.08L5.36765 16L10.281 9.08L5.36632 11.98H5.36832ZM5.44298 0L0.532318 8.14867L5.44232 11.0513L10.3523 8.15133L5.44298 0Z" fill="#F6CE0E"/>
+</svg>
+<div class="small__card__item__text">0,067 ETH</div>                                
+</div>
+<div class="small__card__button">
+<div class="small__card__button__item__container"> 
+<div class="small__card__item">NFT</div>
+</div>
+<div class="small__card__button__text">Buy NFT</div>
+</div>
+</div>
+</div>
+<div class="small__card">
+<div class="small__card__left">
+<img src="./assets/img/4_1.png" alt="">
+</div>
+<div class="small__card__right">
+<div class="small__card__title">SERC SKIN</div>
+<div class="small__card__subtitle">Description</div>
+<div class="small__card__text">Representing her home country of South.</div>
+<div class="small__card__item__container">
+<svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5.36832 11.98L0.458984 9.08L5.36765 16L10.281 9.08L5.36632 11.98H5.36832ZM5.44298 0L0.532318 8.14867L5.44232 11.0513L10.3523 8.15133L5.44298 0Z" fill="#F6CE0E"/>
+</svg>
+<div class="small__card__item__text">0,067 ETH</div>                                
+</div>
+<div class="small__card__button">
+<div class="small__card__button__item__container"> 
+<div class="small__card__item">NFT</div>
+</div>
+<div class="small__card__button__text">Buy NFT</div>
+</div>
+</div>
+</div>
+
+<div class="small__card__vertical vertical__size">     
+<img class="small__card__vertical__header" src="./assets/img/image 84.png" alt="">
+<div class="small__card__vertical__content">
+<div class="small__card__vertical__left">
+<div class="small__Card__vertical__title">
+BULLDOG
+</div>
+<div class="small__Card__vertical__text">
+A surefire beast when you <br>  can pick your shots.
+</div>
+
+</div>
+<div class="small__card__vertical__right">
+<div class="small__card__item__container">
+<svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5.36832 11.98L0.458984 9.08L5.36765 16L10.281 9.08L5.36632 11.98H5.36832ZM5.44298 0L0.532318 8.14867L5.44232 11.0513L10.3523 8.15133L5.44298 0Z" fill="#F6CE0E"/>
+</svg>
+<div class="small__card__item__text">0,067 ETH</div>                                
+</div>
+<div class="small__card__button button__size">
+<div class="small__card__button__item__container"> 
+<div class="small__card__item">NFT</div>
+</div>
+<div class="small__card__button__text">Buy NFT</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="small__card__vertical vertical__size">     
+<img class="small__card__vertical__header" src="./assets/img/image 84.png" alt="">
+<div class="small__card__vertical__content">
+<div class="small__card__vertical__left">
+<div class="small__Card__vertical__title">
+BULLDOG
+</div>
+<div class="small__Card__vertical__text">
+A surefire beast when you <br>  can pick your shots.
+</div>
+
+</div>
+<div class="small__card__vertical__right">
+<div class="small__card__item__container">
+<svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5.36832 11.98L0.458984 9.08L5.36765 16L10.281 9.08L5.36632 11.98H5.36832ZM5.44298 0L0.532318 8.14867L5.44232 11.0513L10.3523 8.15133L5.44298 0Z" fill="#F6CE0E"/>
+</svg>
+<div class="small__card__item__text">0,067 ETH</div>                                
+</div>
+<div class="small__card__button button__size">
+<div class="small__card__button__item__container"> 
+<div class="small__card__item">NFT</div>
+</div>
+<div class="small__card__button__text">Buy NFT</div>
+</div>
+</div>
+</div>
+</div>
+
+
+</div>
+
+</div>
+</article>
+
+
+<article class="vertical__cards">
+<div class="vertical__cards__title">Characters</div>
+<div class="vertical__cards__container">
+<div class="small__card">
+<div class="small__card__left">
+<img src="./assets/img/4_1.png" alt="">
+</div>
+<div class="small__card__right">
+<div class="small__card__title">SERC </div>
+<div class="small__card__subtitle">Description</div>
+<div class="small__card__text">Representing her home country of South.</div>
+<div class="small__card__item__container">
+<svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5.36832 11.98L0.458984 9.08L5.36765 16L10.281 9.08L5.36632 11.98H5.36832ZM5.44298 0L0.532318 8.14867L5.44232 11.0513L10.3523 8.15133L5.44298 0Z" fill="#F6CE0E"/>
+</svg>
+<div class="small__card__item__text">0,067 ETH</div>                                
+</div>
+<div class="small__card__button">
+<div class="small__card__button__item__container"> 
+<div class="small__card__item">NFT</div>
+</div>
+<div class="small__card__button__text">Buy NFT</div>
+</div>
+</div>
+</div>
+<div class="small__card">
+<div class="small__card__left">
+<img src="./assets/img/robot.png" alt="">
+</div>
+<div class="small__card__right">
+<div class="small__card__title">REBEL</div>
+<div class="small__card__subtitle">Description</div>
+<div class="small__card__text">Representing her home country of South.</div>
+<div class="small__card__item__container">
+<svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5.36832 11.98L0.458984 9.08L5.36765 16L10.281 9.08L5.36632 11.98H5.36832ZM5.44298 0L0.532318 8.14867L5.44232 11.0513L10.3523 8.15133L5.44298 0Z" fill="#F6CE0E"/>
+</svg>
+<div class="small__card__item__text">0,067 ETH</div>                                
+</div>
+<div class="small__card__button">
+<div class="small__card__button__item__container"> 
+<div class="small__card__item">NFT</div>
+</div>
+<div class="small__card__button__text">Buy NFT</div>
+</div>
+</div>
+</div>
+<div class="small__card">
+<div class="small__card__left">
+<img src="./assets/img/girl.png" alt="">
+</div>
+<div class="small__card__right">
+<div class="small__card__title">ANITA</div>
+<div class="small__card__subtitle">Description</div>
+<div class="small__card__text">Representing her home country of South.</div>
+<div class="small__card__item__container">
+<svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5.36832 11.98L0.458984 9.08L5.36765 16L10.281 9.08L5.36632 11.98H5.36832ZM5.44298 0L0.532318 8.14867L5.44232 11.0513L10.3523 8.15133L5.44298 0Z" fill="#F6CE0E"/>
+</svg>
+<div class="small__card__item__text">0,067 ETH</div>                                
+</div>
+<div class="small__card__button">
+<div class="small__card__button__item__container"> 
+<div class="small__card__item">NFT</div>
+</div>
+<div class="small__card__button__text">Buy NFT</div>
+</div>
+</div>
+</div>
+<div class="small__card">
+<div class="small__card__left">
+<img src="./assets/img/men.png" alt="">
+</div>
+<div class="small__card__right">
+<div class="small__card__title">STORM</div>
+<div class="small__card__subtitle">Description</div>
+<div class="small__card__text">Representing her home country of South.</div>
+<div class="small__card__item__container">
+<svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5.36832 11.98L0.458984 9.08L5.36765 16L10.281 9.08L5.36632 11.98H5.36832ZM5.44298 0L0.532318 8.14867L5.44232 11.0513L10.3523 8.15133L5.44298 0Z" fill="#F6CE0E"/>
+</svg>
+<div class="small__card__item__text">0,067 ETH</div>                                
+</div>
+<div class="small__card__button">
+<div class="small__card__button__item__container"> 
+<div class="small__card__item">NFT</div>
+</div>
+<div class="small__card__button__text">Buy NFT</div>
+</div>
+</div>
+</div>
+</div>
+
+</article>
+
+
+<article class="vertical__cards__weapons">
+<div class="vertical__cards__title">Weapons</div>
+
+<div class="vertical__cards__container">
+<div class="small__card__vertical">     
+<img class="small__card__vertical__header" src="./assets/img/bulldog.png" alt="">
+<div class="small__card__vertical__content">
+<div class="small__card__vertical__left">
+<div class="small__Card__vertical__title">
+BULLDOG
+</div>
+<div class="small__Card__vertical__text">
+A surefire beast when you <br>  can pick your shots.
+</div>
+
+</div>
+<div class="small__card__vertical__right">
+<div class="small__card__item__container">
+<svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5.36832 11.98L0.458984 9.08L5.36765 16L10.281 9.08L5.36632 11.98H5.36832ZM5.44298 0L0.532318 8.14867L5.44232 11.0513L10.3523 8.15133L5.44298 0Z" fill="#F6CE0E"/>
+</svg>
+<div class="small__card__item__text">0,067 ETH</div>                                
+</div>
+<div class="small__card__button">
+<div class="small__card__button__item__container"> 
+<div class="small__card__item">NFT</div>
+</div>
+<div class="small__card__button__text">Buy NFT</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="small__card__vertical">     
+<img class="small__card__vertical__header" src="./assets/img/galtech.png" alt="">
+<div class="small__card__vertical__content">
+<div class="small__card__vertical__left">
+<div class="small__Card__vertical__title">
+GALTECH
+</div>
+<div class="small__Card__vertical__text">
+A surefire beast when you  <br> can pick your shots.
+</div>
+
+</div>
+<div class="small__card__vertical__right">
+<div class="small__card__item__container">
+<svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5.36832 11.98L0.458984 9.08L5.36765 16L10.281 9.08L5.36632 11.98H5.36832ZM5.44298 0L0.532318 8.14867L5.44232 11.0513L10.3523 8.15133L5.44298 0Z" fill="#F6CE0E"/>
+</svg>
+<div class="small__card__item__text">0,067 ETH</div>                                
+</div>
+<div class="small__card__button">
+<div class="small__card__button__item__container"> 
+<div class="small__card__item">NFT</div>
+</div>
+<div class="small__card__button__text">Buy NFT</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="small__card__vertical">     
+<img class="small__card__vertical__header" src="./assets/img/image 84.png" alt="">
+<div class="small__card__vertical__content">
+<div class="small__card__vertical__left">
+<div class="small__Card__vertical__title">
+ODIN
+</div>
+<div class="small__Card__vertical__text">
+A surefire beast when you <br>  can pick your shots.
+</div>
+
+</div>
+<div class="small__card__vertical__right">
+<div class="small__card__item__container">
+<svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5.36832 11.98L0.458984 9.08L5.36765 16L10.281 9.08L5.36632 11.98H5.36832ZM5.44298 0L0.532318 8.14867L5.44232 11.0513L10.3523 8.15133L5.44298 0Z" fill="#F6CE0E"/>
+</svg>
+<div class="small__card__item__text">0,067 ETH</div>                                
+</div>
+<div class="small__card__button">
+<div class="small__card__button__item__container"> 
+<div class="small__card__item">NFT</div>
+</div>
+<div class="small__card__button__text">Buy NFT</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="small__card__vertical">     
+<img class="small__card__vertical__header" src="./assets/img/stinger.png" alt="">
+<div class="small__card__vertical__content">
+<div class="small__card__vertical__left">
+<div class="small__Card__vertical__title">
+STINGER
+</div>
+<div class="small__Card__vertical__text">
+A surefire beast when you <br>  can pick your shots.
+</div>
+
+</div>
+<div class="small__card__vertical__right">
+<div class="small__card__item__container">
+<svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5.36832 11.98L0.458984 9.08L5.36765 16L10.281 9.08L5.36632 11.98H5.36832ZM5.44298 0L0.532318 8.14867L5.44232 11.0513L10.3523 8.15133L5.44298 0Z" fill="#F6CE0E"/>
+</svg>
+<div class="small__card__item__text">0,067 ETH</div>                                
+</div>
+<div class="small__card__button">
+<div class="small__card__button__item__container"> 
+<div class="small__card__item">NFT</div>
+</div>
+<div class="small__card__button__text">Buy NFT</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article>
+
+<article class="vertical__cards">
+<div class="vertical__cards__title">Clothes</div>
+<div class="vertical__cards__container">
+<div class="small__card">
+<div class="small__card__left">
+<img src="./assets/img/4_2.png" alt="">
+</div>
+<div class="small__card__right">
+<div class="small__card__title">UNION </div>
+<div class="small__card__subtitle">Description</div>
+<div class="small__card__text">Representing her home country of South.</div>
+<div class="small__card__item__container">
+<svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5.36832 11.98L0.458984 9.08L5.36765 16L10.281 9.08L5.36632 11.98H5.36832ZM5.44298 0L0.532318 8.14867L5.44232 11.0513L10.3523 8.15133L5.44298 0Z" fill="#F6CE0E"/>
+</svg>
+<div class="small__card__item__text">0,067 ETH</div>                                
+</div>
+<div class="small__card__button">
+<div class="small__card__button__item__container"> 
+<div class="small__card__item">NFT</div>
+</div>
+<div class="small__card__button__text">Buy NFT</div>
+</div>
+</div>
+</div>
+<div class="small__card">
+<div class="small__card__left">
+<img src="./assets/img/4_3.png" alt="">
+</div>
+<div class="small__card__right">
+<div class="small__card__title">KING WAVE</div>
+<div class="small__card__subtitle">Description</div>
+<div class="small__card__text">Representing her home country of South.</div>
+<div class="small__card__item__container">
+<svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5.36832 11.98L0.458984 9.08L5.36765 16L10.281 9.08L5.36632 11.98H5.36832ZM5.44298 0L0.532318 8.14867L5.44232 11.0513L10.3523 8.15133L5.44298 0Z" fill="#F6CE0E"/>
+</svg>
+<div class="small__card__item__text">0,067 ETH</div>                                
+</div>
+<div class="small__card__button">
+<div class="small__card__button__item__container"> 
+<div class="small__card__item">NFT</div>
+</div>
+<div class="small__card__button__text">Buy NFT</div>
+</div>
+</div>
+</div>
+<div class="small__card">
+<div class="small__card__left">
+<img src="./assets/img/4_2.png" alt="">
+</div>
+<div class="small__card__right">
+<div class="small__card__title">ROCKING</div>
+<div class="small__card__subtitle">Description</div>
+<div class="small__card__text">Representing her home country of South.</div>
+<div class="small__card__item__container">
+<svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5.36832 11.98L0.458984 9.08L5.36765 16L10.281 9.08L5.36632 11.98H5.36832ZM5.44298 0L0.532318 8.14867L5.44232 11.0513L10.3523 8.15133L5.44298 0Z" fill="#F6CE0E"/>
+</svg>
+<div class="small__card__item__text">0,067 ETH</div>                                
+</div>
+<div class="small__card__button">
+<div class="small__card__button__item__container"> 
+<div class="small__card__item">NFT</div>
+</div>
+<div class="small__card__button__text">Buy NFT</div>
+</div>
+</div>
+</div>
+<div class="small__card">
+<div class="small__card__left">
+<img src="./assets/img/4_3.png" alt="">
+</div>
+<div class="small__card__right">
+<div class="small__card__title">SLAVES</div>
+<div class="small__card__subtitle">Description</div>
+<div class="small__card__text">Representing her home country of South.</div>
+<div class="small__card__item__container">
+<svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5.36832 11.98L0.458984 9.08L5.36765 16L10.281 9.08L5.36632 11.98H5.36832ZM5.44298 0L0.532318 8.14867L5.44232 11.0513L10.3523 8.15133L5.44298 0Z" fill="#F6CE0E"/>
+</svg>
+<div class="small__card__item__text">0,067 ETH</div>                                
+</div>
+<div class="small__card__button">
+<div class="small__card__button__item__container"> 
+<div class="small__card__item">NFT</div>
+</div>
+<div class="small__card__button__text">Buy NFT</div>
+</div>
+</div>
+</div>
+</div>
+
+</article>
+
+
+<article class="vertical__cards__weapons">
+<div class="vertical__cards__title">Vehicles</div>
+
+<div class="vertical__cards__container">
+<div class="small__card__vertical">     
+<img class="small__card__vertical__header" src="./assets/img/image 85.png" alt="">
+<div class="small__card__vertical__content">
+<div class="small__card__vertical__left">
+<div class="small__Card__vertical__title">
+ALPHA SKY
+</div>
+<div class="small__Card__vertical__text">
+A surefire beast when you <br>  can pick your shots.
+</div>
+
+</div>
+<div class="small__card__vertical__right">
+<div class="small__card__item__container">
+<svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5.36832 11.98L0.458984 9.08L5.36765 16L10.281 9.08L5.36632 11.98H5.36832ZM5.44298 0L0.532318 8.14867L5.44232 11.0513L10.3523 8.15133L5.44298 0Z" fill="#F6CE0E"/>
+</svg>
+<div class="small__card__item__text">0,067 ETH</div>                                
+</div>
+<div class="small__card__button">
+<div class="small__card__button__item__container"> 
+<div class="small__card__item">NFT</div>
+</div>
+<div class="small__card__button__text">Buy NFT</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="small__card__vertical">     
+<img class="small__card__vertical__header" src="./assets/img/image 88.png" alt="">
+<div class="small__card__vertical__content">
+<div class="small__card__vertical__left">
+<div class="small__Card__vertical__title">
+TECHSWING
+</div>
+<div class="small__Card__vertical__text">
+A surefire beast when you <br>  can pick your shots.
+</div>
+
+</div>
+<div class="small__card__vertical__right">
+<div class="small__card__item__container">
+<svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5.36832 11.98L0.458984 9.08L5.36765 16L10.281 9.08L5.36632 11.98H5.36832ZM5.44298 0L0.532318 8.14867L5.44232 11.0513L10.3523 8.15133L5.44298 0Z" fill="#F6CE0E"/>
+</svg>
+<div class="small__card__item__text">0,067 ETH</div>                                
+</div>
+<div class="small__card__button">
+<div class="small__card__button__item__container"> 
+<div class="small__card__item">NFT</div>
+</div>
+<div class="small__card__button__text">Buy NFT</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="small__card__vertical">     
+<img class="small__card__vertical__header" src="./assets/img/image 86.png" alt="">
+<div class="small__card__vertical__content">
+<div class="small__card__vertical__left">
+<div class="small__Card__vertical__title">
+RED CORD
+</div>
+<div class="small__Card__vertical__text">
+A surefire beast when you <br> can pick your shots.
+</div>
+
+</div>
+<div class="small__card__vertical__right">
+<div class="small__card__item__container">
+<svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5.36832 11.98L0.458984 9.08L5.36765 16L10.281 9.08L5.36632 11.98H5.36832ZM5.44298 0L0.532318 8.14867L5.44232 11.0513L10.3523 8.15133L5.44298 0Z" fill="#F6CE0E"/>
+</svg>
+<div class="small__card__item__text">0,067 ETH</div>                                
+</div>
+<div class="small__card__button">
+<div class="small__card__button__item__container"> 
+<div class="small__card__item">NFT</div>
+</div>
+<div class="small__card__button__text">Buy NFT</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="small__card__vertical">     
+<img class="small__card__vertical__header" src="./assets/img/image 88.png" alt="">
+<div class="small__card__vertical__content">
+<div class="small__card__vertical__left">
+<div class="small__Card__vertical__title">
+SWIN BLUE
+</div>
+<div class="small__Card__vertical__text">
+A surefire beast when you  <br> can pick your shots.
+</div>
+
+</div>
+<div class="small__card__vertical__right">
+<div class="small__card__item__container">
+<svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5.36832 11.98L0.458984 9.08L5.36765 16L10.281 9.08L5.36632 11.98H5.36832ZM5.44298 0L0.532318 8.14867L5.44232 11.0513L10.3523 8.15133L5.44298 0Z" fill="#F6CE0E"/>
+</svg>
+<div class="small__card__item__text">0,067 ETH</div>                                
+</div>
+<div class="small__card__button">
+<div class="small__card__button__item__container"> 
+<div class="small__card__item">NFT</div>
+</div>
+<div class="small__card__button__text">Buy NFT</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article>
+
+
+
+<footer class="footer__container">
+<div class="container__button">
+<div class="footer__button__container button__size">
+<div class="footer__button__item item__size">
+<svg class="footer__item__svg__2"  width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path id="color" d="M0.5 13.6047C0.5 14.4189 1.20302 15.0812 2.06726 15.0812C2.51096 15.0812 2.91196 14.9063 3.19737 14.6261L9.31349 17.9529C9.42894 18.0157 9.57106 18.0157 9.68651 17.9529L15.8028 14.6261C16.0882 14.9063 16.489 15.0812 16.9327 15.0812C17.797 15.0812 18.5 14.4189 18.5 13.6047C18.5 12.9117 17.9906 12.329 17.3059 12.1708L17.3059 5.51954C17.3059 5.39402 17.2348 5.27798 17.1193 5.21508L11.0051 1.88924C11.0456 1.75823 11.0678 1.6198 11.0678 1.47656C11.0678 0.662477 10.3647 -7.11206e-07 9.50051 -7.8676e-07C8.63642 -8.62302e-07 7.9334 0.662477 7.9334 1.47656C7.9334 1.61966 7.95541 1.75782 7.99593 1.88883L1.88068 5.21508C1.76524 5.27784 1.6941 5.39402 1.6941 5.51954L1.6941 12.1708C1.00945 12.329 0.5 12.9117 0.5 13.6047ZM17.7537 13.6047C17.7537 14.0312 17.3855 14.3781 16.9327 14.3781C16.4801 14.3781 16.1119 14.0312 16.1119 13.6047C16.1119 13.1783 16.4801 12.8312 16.9327 12.8312C17.3855 12.8312 17.7537 13.1783 17.7537 13.6047ZM9.50051 0.703126C9.95326 0.703126 10.3215 1.05002 10.3215 1.47656C10.3215 1.90297 9.95326 2.25 9.50051 2.25C9.04791 2.25 8.67957 1.90297 8.67957 1.47656C8.67957 1.05002 9.04791 0.703126 9.50051 0.703126ZM8.36967 2.49733C8.65522 2.7779 9.05637 2.95313 9.50051 2.95313C9.94436 2.95313 10.3455 2.77804 10.6309 2.49775L16.5596 5.72251L16.5596 12.1708C15.8751 12.329 15.3656 12.9117 15.3656 13.6047C15.3656 13.748 15.3878 13.8866 15.4285 14.0179L9.50007 17.2425L3.57155 14.0179C3.61221 13.8866 3.63437 13.7482 3.63437 13.6047C3.63437 12.9117 3.12492 12.329 2.44041 12.1708L2.44042 5.72251L8.36967 2.49733ZM2.06726 12.8312C2.51986 12.8312 2.8882 13.1783 2.8882 13.6047C2.8882 14.0312 2.51986 14.3781 2.06726 14.3781C1.61451 14.3781 1.24631 14.0312 1.24631 13.6047C1.24631 13.1783 1.61451 12.8312 2.06726 12.8312Z" fill="#171717"/>
+</svg>
+<svg class="footer__item__svg" width="11" height="13" viewBox="0 0 11 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path id="color-2" d="M0.38791 9.54672L5.31357 12.2259C5.42902 12.2886 5.57114 12.2886 5.68659 12.2259L10.6123 9.54672C10.7277 9.48382 10.7988 9.36778 10.7988 9.24226L10.7988 3.8838C10.7988 3.75828 10.7277 3.6421 10.6123 3.57934L5.68659 0.900043C5.62886 0.868732 5.56458 0.852939 5.50015 0.852939C5.43558 0.852939 5.3713 0.868732 5.31358 0.900043L0.387911 3.57934C0.272466 3.6421 0.201333 3.75828 0.201333 3.8838L0.201332 9.24226C0.201332 9.36778 0.272465 9.48382 0.38791 9.54672ZM5.50015 11.5155L1.3208 9.24226L5.50015 6.96891L9.67936 9.24226L5.50015 11.5155ZM5.127 1.81342L5.127 3.39889C5.127 3.59307 5.29404 3.75045 5.50015 3.75045C5.70612 3.75045 5.87316 3.59307 5.87316 3.39889L5.87316 1.81342L10.0525 4.08677L10.0525 8.63334L5.68659 6.2585C5.62886 6.22719 5.56458 6.2114 5.50015 6.2114C5.43558 6.2114 5.3713 6.22719 5.31358 6.2585L0.947646 8.63334L0.947646 4.08677L5.127 1.81342Z" fill="#171717"/>
+</svg>
+
+</div>
+<div class="footer__button__text">MSDOGE$0.00</div>
+</div>
+<div class="footer__button__container">
+<div class="footer__button__item">
+<svg class="footer__svg__black" width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0.816906 13.703L9.18322 17.9258C9.3793 18.0247 9.6207 18.0247 9.81678 17.9258L18.1831 13.703C18.3792 13.6038 18.5 13.4209 18.5 13.2231L18.5 4.77719C18.5 4.57934 18.3792 4.39622 18.1831 4.2973L9.81678 0.0742447C9.71874 0.024892 9.60956 -7.77227e-07 9.50013 -7.86794e-07C9.39045 -7.96383e-07 9.28126 0.024892 9.18322 0.0742446L0.816907 4.2973C0.620822 4.39622 0.500001 4.57934 0.500001 4.77718L0.5 13.2231C0.5 13.4209 0.620821 13.6038 0.816906 13.703ZM9.50012 16.8061L2.40144 13.2231L9.50012 9.63987L16.5986 13.2231L9.50012 16.8061ZM8.86631 1.51389L8.86631 4.01288C8.86631 4.31895 9.15004 4.56701 9.50013 4.56701C9.84996 4.56701 10.1337 4.31895 10.1337 4.01288L10.1337 1.51389L17.2324 5.09711L17.2324 12.2633L9.81678 8.52014C9.71874 8.47079 9.60956 8.4459 9.50012 8.4459C9.39045 8.4459 9.28126 8.47079 9.18322 8.52014L1.76762 12.2633L1.76763 5.09711L8.86631 1.51389Z" fill="white"/>
+</svg>                        
+</div>
+<div class="footer__button__text">CRYPTO $0.00</div>
+</div>
+<div class="footer__button__container">
+<div class="svg__color__container">
+<div class="footer__button__item__color">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="10px" height="10px" viewBox="0 0 1265.000000 1280.000000" preserveAspectRatio="xMidYMid meet">
+
+<g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)" fill="#e4d96f" stroke="none">
+<path d="M2043 12793 l-433 -3 -2 -643 c-2 -353 -2 -663 -1 -689 1 -62 28 -104 108 -169 76 -61 105 -113 105 -185 0 -59 -64 -319 -121 -494 -107 -323 -195 -522 -519 -1165 -297 -588 -337 -673 -452 -955 -394 -968 -621 -1824 -705 -2660 -24 -242 -24 -799 0 -1020 127 -1154 586 -2104 1437 -2974 509 -520 1180 -1011 1826 -1334 357 -178 683 -303 1010 -387 266 -67 398 -86 609 -87 205 0 283 7 660 63 499 73 569 80 843 80 268 0 370 -13 577 -71 256 -72 352 -91 510 -97 834 -34 1925 408 2920 1181 293 228 538 452 854 781 936 974 1346 1920 1378 3175 27 1087 -257 2297 -848 3611 -105 232 -362 750 -508 1022 -341 636 -434 891 -435 1197 -1 198 37 319 142 449 l52 64 0 652 0 652 -702 7 c-824 7 -1013 -1 -1283 -55 -179 -36 -350 -103 -453 -178 l-42 -31 0 -153 c0 -350 46 -756 131 -1177 110 -541 277 -1090 629 -2070 435 -1211 601 -1771 705 -2385 104 -615 110 -1030 20 -1522 -144 -782 -560 -1511 -1120 -1958 -461 -369 -1093 -619 -1910 -754 -206 -35 -458 -68 -581 -77 -83 -7 -98 -16 -72 -42 9 -9 3 -12 -30 -12 -33 0 -52 8 -93 39 -86 65 -136 75 -318 65 -216 -12 -275 -9 -442 20 -591 102 -1166 344 -1614 680 -678 510 -1108 1186 -1269 1996 -42 211 -57 355 -63 605 -8 337 19 631 93 1040 108 596 273 1147 699 2340 212 594 291 830 391 1159 211 698 329 1315 349 1828 3 73 7 187 10 254 l5 121 -44 31 c-150 108 -389 183 -696 218 -140 17 -610 23 -1307 17z m-1175 -9880 c68 -98 148 -213 178 -255 31 -43 53 -78 50 -78 -17 0 -284 381 -355 505 -33 59 -10 27 127 -172z m253 -360 c13 -16 12 -17 -3 -4 -10 7 -18 15 -18 17 0 8 8 3 21 -13z m3947 -2390 c-27 -2 -69 -2 -95 0 -27 2 -5 3 47 3 52 0 74 -1 48 -3z"/>
+</g>
+</svg>
+
+</div></div>
+<div class="footer__button__text">ORIAN     $0.00</div>
+</div>
+</div>
+<div class="footer__end__container">
+<div class="social__buttons">
+<div class="telegram__item__container">
+<svg width="11" height="9" viewBox="0 0 11 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M4.47541 5.86447L8.16957 8.59377C8.59113 8.82637 8.89537 8.70594 9.00038 8.20239L10.5041 1.11633C10.658 0.499094 10.2688 0.219144 9.86553 0.402233L1.03574 3.80696C0.433021 4.04871 0.436535 4.38497 0.925875 4.5348L3.1918 5.24203L8.43765 1.93248C8.6853 1.78231 8.91258 1.86304 8.72604 2.02861" fill="url(#paint0_linear_1909_146)"/>
+<defs>
+<linearGradient id="paint0_linear_1909_146" x1="4.85262" y1="4.5629" x2="5.83206" y2="7.7311" gradientUnits="userSpaceOnUse">
+<stop stop-color="#EFF7FC"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+</defs>
+</svg>
+
+</div>
+
+<div class="discord__item">
+<svg width="20" height="15" viewBox="0 0 20 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M16.3539 1.49162C15.1854 0.955463 13.9324 0.560445 12.6222 0.334201C12.5984 0.329835 12.5745 0.340747 12.5623 0.362571C12.4011 0.649193 12.2226 1.02312 12.0976 1.31702C10.6885 1.10606 9.28655 1.10606 7.90631 1.31702C7.78128 1.01658 7.5963 0.649193 7.43442 0.362571C7.42213 0.341475 7.3983 0.330563 7.37444 0.334201C6.06503 0.559722 4.81198 0.95474 3.64275 1.49162C3.63263 1.49599 3.62396 1.50327 3.6182 1.51272C1.24144 5.06355 0.590342 8.5271 0.909747 11.9477C0.911192 11.9644 0.920586 11.9805 0.933594 11.9906C2.50171 13.1422 4.0207 13.8413 5.51149 14.3047C5.53535 14.312 5.56063 14.3033 5.57581 14.2836C5.92846 13.8021 6.24281 13.2943 6.51233 12.7603C6.52824 12.729 6.51306 12.6919 6.48055 12.6796C5.98193 12.4904 5.50715 12.2598 5.05044 11.9979C5.01432 11.9768 5.01143 11.9251 5.04466 11.9004C5.14077 11.8284 5.2369 11.7535 5.32867 11.6778C5.34527 11.664 5.36841 11.6611 5.38793 11.6698C8.3883 13.0397 11.6366 13.0397 14.6015 11.6698C14.621 11.6603 14.6442 11.6633 14.6615 11.6771C14.7533 11.7527 14.8494 11.8284 14.9462 11.9004C14.9795 11.9251 14.9773 11.9768 14.9412 11.9979C14.4845 12.2649 14.0097 12.4904 13.5103 12.6788C13.4778 12.6912 13.4634 12.729 13.4793 12.7603C13.7546 13.2935 14.0689 13.8013 14.4151 14.2829C14.4295 14.3033 14.4555 14.312 14.4794 14.3047C15.9774 13.8413 17.4964 13.1422 19.0645 11.9906C19.0783 11.9805 19.0869 11.9652 19.0884 11.9484C19.4706 7.99384 18.4481 4.55869 16.3778 1.51344C16.3727 1.50327 16.364 1.49599 16.3539 1.49162ZM6.96039 9.86492C6.05707 9.86492 5.31277 9.03561 5.31277 8.01713C5.31277 6.99865 6.04264 6.16933 6.96039 6.16933C7.88535 6.16933 8.62245 7.00593 8.60799 8.01713C8.60799 9.03561 7.87812 9.86492 6.96039 9.86492ZM13.0522 9.86492C12.1489 9.86492 11.4046 9.03561 11.4046 8.01713C11.4046 6.99865 12.1344 6.16933 13.0522 6.16933C13.9772 6.16933 14.7143 7.00593 14.6998 8.01713C14.6998 9.03561 13.9772 9.86492 13.0522 9.86492Z" fill="#5865F2"/>
+</svg>   
+</div>
+
+<div class="twitter__item">
+<svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M19.1673 2.26344C18.4855 2.5625 17.7591 2.76073 17.0017 2.85698C17.7809 2.39177 18.3755 1.66073 18.6551 0.779583C17.9287 1.21271 17.1266 1.51865 16.2718 1.68938C15.582 0.954896 14.5989 0.5 13.5264 0.5C11.4455 0.5 9.77034 2.18896 9.77034 4.25948C9.77034 4.5574 9.79555 4.84385 9.85742 5.11656C6.73273 4.96417 3.96784 3.46656 2.11044 1.18521C1.78617 1.74781 1.59596 2.39177 1.59596 3.085C1.59596 4.38667 2.26628 5.54052 3.26544 6.20854C2.66159 6.19708 2.06919 6.02177 1.56732 5.74563C1.56732 5.75708 1.56732 5.77198 1.56732 5.78687C1.56732 7.61333 2.87013 9.13042 4.57857 9.4799C4.27263 9.56354 3.93919 9.60365 3.59315 9.60365C3.35253 9.60365 3.10961 9.5899 2.88159 9.53948C3.36857 11.0279 4.75044 12.1222 6.39357 12.1577C5.11482 13.158 3.49117 13.7607 1.73346 13.7607C1.42523 13.7607 1.12961 13.747 0.833984 13.7092C2.49888 14.7828 4.47201 15.3958 6.59982 15.3958C13.5161 15.3958 17.2973 9.66667 17.2973 4.70062C17.2973 4.53448 17.2916 4.37406 17.2836 4.21479C18.0295 3.68542 18.6563 3.02427 19.1673 2.26344Z" fill="#03A9F4"/>
+</svg>
+</div>
+</div>
+
+<div class="footer__end__item">Eden DAO</div>
+<div class="footer__end__item">Contact Us</div>
+<div class="footer__end__item">FAQ</div>
+</div>
+</footer>
+
+</div>
+</body>
+</html>
+
